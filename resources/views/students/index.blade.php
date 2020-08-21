@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    NTVC | All Students
+    Naivasha TVC | All Students
 @endsection
 
 @section('content')
