@@ -1,0 +1,67 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.cover{
+    height: 85vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cover-index{
+    background-image: url("../images/school_entrance.jpg");
+}
+.cover-administration{
+    background-image: url("../images/old-staff_1.jpg");
+}
+.cover-chairperson{
+    background-image: url("../images/BOG.jpeg");
+}
+.navs{
+    background: linear-gradient(navy, blue);
+    
+    .nav-item{
+        .nav-link{
+            color: #ffffff;
+        }
+    }
+
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
+    
+    .dropdown-menu{
+        border-radius: 2%;
+        border: none;
+        background: linear-gradient(blue, navy);
+        color: #ffffff;
+
+        .nav-item:hover{
+            background: rgb(7, 4, 56);
+        }
+    }
+}
+
+.banner{
+    position: absolute;
+    bottom: 10%;
+    padding: 3rem;
+    background: rgba($color: #1fcc3b, $alpha: .8);
+    
+    h1{
+        color: #ffffff;
+    }
+}
+
+form{
+    background: rgba($color: #dfdbdb, $alpha: .4);
+    padding: 3rem;
+}
